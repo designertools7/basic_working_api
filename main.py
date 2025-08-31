@@ -3,7 +3,7 @@ client = OpenAI()
 
 response  = client.responses.create(
     model="gpt-5",
-    input="create a lesson plan for seventh grader learning about density mass and volume",
+    input="list top 10 universities in the wester United States",
 )
 
 print(response.output_text)
